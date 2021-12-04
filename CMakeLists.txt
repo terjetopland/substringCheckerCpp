@@ -3,4 +3,4 @@ project(checkForSubstringCPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(checkForSubstringCPP main.cpp)
+add_executable(checkForSubstringCPP main.cpp Functions.cpp Functions.h)

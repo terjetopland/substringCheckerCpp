@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/terje/source/repos/checkForSubstringCPP/Functions.cpp" "C:/Users/terje/source/repos/checkForSubstringCPP/cmake-build-debug/CMakeFiles/checkForSubstringCPP.dir/Functions.cpp.obj"
   "C:/Users/terje/source/repos/checkForSubstringCPP/main.cpp" "C:/Users/terje/source/repos/checkForSubstringCPP/cmake-build-debug/CMakeFiles/checkForSubstringCPP.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

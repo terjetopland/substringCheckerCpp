@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/terje/source/repos/checkForSubstringCPP/Functions.cpp">
+			<Option target="checkForSubstringCPP"/>
+		</Unit>
+		<Unit filename="C:/Users/terje/source/repos/checkForSubstringCPP/Functions.h">
+			<Option target="checkForSubstringCPP"/>
+		</Unit>
 		<Unit filename="C:/Users/terje/source/repos/checkForSubstringCPP/main.cpp">
 			<Option target="checkForSubstringCPP"/>
 		</Unit>

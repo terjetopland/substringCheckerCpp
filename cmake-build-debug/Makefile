@@ -128,6 +128,30 @@ checkForSubstringCPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkForSubstringCPP.dir\build.make CMakeFiles/checkForSubstringCPP.dir/build
 .PHONY : checkForSubstringCPP/fast
 
+Functions.obj: Functions.cpp.obj
+.PHONY : Functions.obj
+
+# target to build an object file
+Functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkForSubstringCPP.dir\build.make CMakeFiles/checkForSubstringCPP.dir/Functions.cpp.obj
+.PHONY : Functions.cpp.obj
+
+Functions.i: Functions.cpp.i
+.PHONY : Functions.i
+
+# target to preprocess a source file
+Functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkForSubstringCPP.dir\build.make CMakeFiles/checkForSubstringCPP.dir/Functions.cpp.i
+.PHONY : Functions.cpp.i
+
+Functions.s: Functions.cpp.s
+.PHONY : Functions.s
+
+# target to generate assembly for a file
+Functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkForSubstringCPP.dir\build.make CMakeFiles/checkForSubstringCPP.dir/Functions.cpp.s
+.PHONY : Functions.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... checkForSubstringCPP
+	@echo ... Functions.obj
+	@echo ... Functions.i
+	@echo ... Functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/checkForSubstringCPP.dir/Functions.cpp.obj"
   "CMakeFiles/checkForSubstringCPP.dir/main.cpp.obj"
   "checkForSubstringCPP.exe"
   "checkForSubstringCPP.exe.manifest"

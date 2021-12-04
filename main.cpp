@@ -21,10 +21,16 @@ void consoleWr(string writeCons, int EndLine) {
         cout << writeCons;
 }
 
-
 string consoleRead(string readString) {
     cin >> readString;
  return readString;
+}
+
+void stringEqualChecker(string string1, string string2){
+    if(string1.compare(string2) == 0) {
+        cout << "The strings are equal" <<endl;
+    } else
+        cout << "The strings are not equal" << endl;
 }
 int main() {
     string greeting;
@@ -44,17 +50,14 @@ int main() {
     string secondString;
     secondString = consoleRead(secondString);
 
+    stringEqualChecker(firstString, secondString);
 
-    if(secondString.compare(firstString) == 0) {
-        cout << "The strings are equal" <<endl;
-    } else
-        cout << "The strings are not equal" << endl;
 
-    if(secondString.find(firstString) != 0) {
-        consoleWr("Last string is substring of first string", 1);
+    if(secondString.find(firstString) != string::npos) {
+        consoleWr("First string is substring of first string", 1);
     }
-    else if(firstString.find(secondString) != 0) {
-        consoleWr("First string is substring of last string", 1);
+    else if(firstString.find(secondString) != string::npos) {
+        consoleWr("Last string is substring of last string", 1);
     } else
         consoleWr("There are no substrings",1);
 

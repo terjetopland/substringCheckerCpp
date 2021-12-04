@@ -80,12 +80,12 @@ clean: CMakeFiles/checkForSubstringCPP.dir/clean
 CMakeFiles/checkForSubstringCPP.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkForSubstringCPP.dir\build.make CMakeFiles/checkForSubstringCPP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\checkForSubstringCPP.dir\build.make CMakeFiles/checkForSubstringCPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\terje\source\repos\checkForSubstringCPP\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target checkForSubstringCPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\terje\source\repos\checkForSubstringCPP\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target checkForSubstringCPP"
 .PHONY : CMakeFiles/checkForSubstringCPP.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/checkForSubstringCPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\terje\source\repos\checkForSubstringCPP\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\terje\source\repos\checkForSubstringCPP\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/checkForSubstringCPP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\terje\source\repos\checkForSubstringCPP\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/checkForSubstringCPP.dir/rule
