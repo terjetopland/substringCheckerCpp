@@ -22,7 +22,7 @@ void consoleWr(string writeCons, int EndLine) {
 }
 
 string consoleRead(string readString) {
-    cin >> readString;
+    getline(cin, readString);
  return readString;
 }
 
